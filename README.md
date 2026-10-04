@@ -1,6 +1,6 @@
 # PCoin Community Mining Suite
 
-Version: v1.0.6-community.2
+Version: v1.0.6-community.3
 Maintainer: Apoc0052
 
 Independent community release of a PCoin-focused XMRig/XMRigCC mining suite.
@@ -55,17 +55,28 @@ See Miner\LICENSES.txt inside the Windows package for detailed third-party licen
 
 Windows package:
 
-PCoin-Community-Mining-Suite-v1.0.6-community.2-Windows.zip
+PCoin-Community-Mining-Suite-v1.0.6-community.3-Windows.zip
 
-SHA256:
-31DE5E2709130B1E1B00742090A608A13208AC773207F44A84214DC398DC2FCC
+SHA-256:
+FEBDAF32E8FDB1041E82524775824D657A62B21C8E94062CD2BFE2AF3E47D16D
 
 Corresponding XMRigCC source:
 
-PCoin-XMRigCC-Source-v1.0.6-community.2.zip
+PCoin-XMRigCC-Source-v1.0.6-community.3.zip
 
-SHA256:
-0809C7A967D7346BA76B5E107EC189A8CBDFE91290BDBEE08E60BDFF73119802
+SHA-256:
+85A62DBA0F0FC1D398A70EB17145D9088F32312061562C0CB5EBA7F8933CB6C6
+
+## Release Notes
+
+- Public-release configuration sanitized; no private farm wallet, IPs or machine names.
+- Fresh installs require the user to configure their own PCoin wallet and SOLO server.
+- Rebuilt XMRigCC 3.4.10-dev PCoin miner with rx/pcoin support.
+- Fixed 1% community donation of mining time to the disclosed PCoin donation address.
+- Community donation connects directly to pool.pc.am:3333 and replaces the upstream XMRig donation destination.
+- XMRigCC server used by DUAL mode is restricted to localhost.
+- Updated Windows miner binaries and matching libuv runtime.
+- POOL mode tested end-to-end with an accepted PCoin share.
 
 ## Disclaimer
 
@@ -73,4 +84,4 @@ Use this software at your own risk. Mining performance, pool availability, netwo
 
 No private keys, recovery phrases, or personal mining-farm configuration are included in the public release.
 
-PCoin Community Mining Suite v1.0.6-community.2
+PCoin Community Mining Suite v1.0.6-community.3

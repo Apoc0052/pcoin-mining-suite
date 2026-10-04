@@ -1,6 +1,6 @@
 # PCoin Community Mining Suite
 
-Version: v1.0.6-community.1
+Version: v1.0.6-community.2
 Maintainer: Apoc0052
 
 Independent community release of a PCoin-focused XMRig/XMRigCC mining suite.
@@ -55,14 +55,14 @@ See Miner\LICENSES.txt inside the Windows package for detailed third-party licen
 
 Windows package:
 
-PCoin-Community-Mining-Suite-v1.0.6-community.1-Windows.zip
+PCoin-Community-Mining-Suite-v1.0.6-community.2-Windows.zip
 
 SHA256:
 31DE5E2709130B1E1B00742090A608A13208AC773207F44A84214DC398DC2FCC
 
 Corresponding XMRigCC source:
 
-PCoin-XMRigCC-Source-v1.0.6-community.1.zip
+PCoin-XMRigCC-Source-v1.0.6-community.2.zip
 
 SHA256:
 0809C7A967D7346BA76B5E107EC189A8CBDFE91290BDBEE08E60BDFF73119802
@@ -73,4 +73,4 @@ Use this software at your own risk. Mining performance, pool availability, netwo
 
 No private keys, recovery phrases, or personal mining-farm configuration are included in the public release.
 
-PCoin Community Mining Suite v1.0.6-community.1
+PCoin Community Mining Suite v1.0.6-community.2

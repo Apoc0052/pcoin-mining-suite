@@ -85,3 +85,21 @@ Use this software at your own risk. Mining performance, pool availability, netwo
 No private keys, recovery phrases, or personal mining-farm configuration are included in the public release.
 
 PCoin Community Mining Suite v1.0.6-community.3
+
+
+## Unofficial PCoin Windows RandomX Core Build
+
+A separate unofficial Windows RandomX Core build is available for testing and review:
+
+**Package:** `PCoin-Windows-RandomX-Unofficial-2026-10-06.zip`  
+**Based on:** PCoin Core v29.4.0  
+**SHA-256:** `E775324AD44559062D6C5BE9AE9F30A73FCAB2374633BCDA0A9BB2B1E1DCA31E`
+
+This is an independent community build. It is **not an official PCoin release and has not been verified or endorsed by PCoin**. The package includes a technical build report documenting the Windows toolchain, RandomX initialization, clean deployment test, RPC test, and real-chain verification performed against a copy of the PCoin SOLO chain.
+
+### Safety
+
+Do not use an unofficial wallet binary with a wallet that contains funds, and never enter a recovery phrase for a funded wallet into unofficial software. Testing should use a fresh wallet with no funds.
+
+The exact package name intentionally avoids official-looking version tags, following PCoin's request that community releases be clearly distinguishable from official releases.
+
